@@ -1,4 +1,9 @@
-import 'package:chakrilinkbd/view/user_current_location.dart';
+import 'package:chakrilinkbd/view/Places_API.dart';
+import 'package:chakrilinkbd/view/custom_marker.dart';
+import 'package:chakrilinkbd/view/custom_marker_info.dart';
+import 'package:chakrilinkbd/view/custom_marker_network_image.dart';
+import 'package:chakrilinkbd/view/polygon.dart';
+import 'package:chakrilinkbd/view/polyline_two.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: UserCurrentLocation(),
+      home: PolylineTwo(),
     );
   }
 }
