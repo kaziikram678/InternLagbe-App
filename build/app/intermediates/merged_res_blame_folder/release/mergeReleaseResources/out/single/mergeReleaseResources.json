@@ -1,0 +1,426 @@
+[
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_amu_text_bubble.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/layout/amu_text_bubble.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-mdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_ic_call_answer_low.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/ic_call_answer_low.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_icon_disabled.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_icon_dark_normal.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-hdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/color_common_google_signin_btn_text_dark.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/color/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_amu_bubble_shadow.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable/amu_bubble_shadow.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_notification_template_part_time.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_ic_call_answer_video_low.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/ic_call_answer_video_low.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxxhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable-xxxhdpi-v4/amu_bubble_shadow.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/animator_fragment_fade_enter.xml.flat",
+        "source": "bd.ikram.chakrilink.app-fragment-1.7.1-9:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxxhdpi-v4_amu_bubble_mask.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable-xxxhdpi-v4/amu_bubble_mask.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/animator_fragment_close_enter.xml.flat",
+        "source": "bd.ikram.chakrilink.app-fragment-1.7.1-9:/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_amu_bubble_mask.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable-xxhdpi-v4/amu_bubble_mask.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_icon_light_focused.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xhdpi-v4/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout-v21_notification_template_custom_big.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_custom_dialog.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_text_dark.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_ic_call_answer_video.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/ic_call_answer_video.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_notification_bg_low.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_ic_call_answer.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/ic_call_answer.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout-v21_notification_action.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_amu_bubble_mask.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable-xhdpi-v4/amu_bubble_mask.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "bd.ikram.chakrilink.app-main-27:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_text_light_focused.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout-v21_notification_action_tombstone.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/color_common_google_signin_btn_tint.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/animator_fragment_close_exit.xml.flat",
+        "source": "bd.ikram.chakrilink.app-fragment-1.7.1-9:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/animator_fragment_fade_exit.xml.flat",
+        "source": "bd.ikram.chakrilink.app-fragment-1.7.1-9:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_amu_info_window.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/layout/amu_info_window.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-hdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_amu_bubble_mask.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable/amu_bubble_mask.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout-v21_notification_template_icon_group.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "bd.ikram.chakrilink.app-main-27:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_notification_oversize_large_icon_bg.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-hdpi-v4/notification_oversize_large_icon_bg.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-hdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_text_disabled.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-v21_notification_action_background.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable-xxhdpi-v4/amu_bubble_shadow.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_ime_base_split_test_activity.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout/ime_base_split_test_activity.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/animator_fragment_open_enter.xml.flat",
+        "source": "bd.ikram.chakrilink.app-fragment-1.7.1-9:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_text_light.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-v21_launch_background.xml.flat",
+        "source": "bd.ikram.chakrilink.app-main-27:/drawable-v21/launch_background.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_icon_light_normal.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/animator_fragment_open_exit.xml.flat",
+        "source": "bd.ikram.chakrilink.app-fragment-1.7.1-9:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/xml_image_share_filepaths.xml.flat",
+        "source": "bd.ikram.chakrilink.app-browser-1.8.0-5:/xml/image_share_filepaths.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_ic_call_decline_low.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/ic_call_decline_low.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_ic_call_decline.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/ic_call_decline.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/anim-v21_fragment_fast_out_extra_slow_in.xml.flat",
+        "source": "bd.ikram.chakrilink.app-fragment-1.7.1-9:/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_icon_light.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-xhdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_text_dark_focused.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_browser_actions_context_menu_row.xml.flat",
+        "source": "bd.ikram.chakrilink.app-browser-1.8.0-5:/layout/browser_actions_context_menu_row.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_ime_secondary_split_test_activity.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout/ime_secondary_split_test_activity.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "bd.ikram.chakrilink.app-main-27:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_notification_bg.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_notification_template_part_chronometer.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "bd.ikram.chakrilink.app-main-27:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/color_common_google_signin_btn_text_light.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_notification_tile_bg.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_text_light_normal.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_amu_webview.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/layout/amu_webview.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-xhdpi-v4_amu_bubble_shadow.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-android-maps-utils-3.6.0-12:/drawable-xhdpi-v4/amu_bubble_shadow.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "bd.ikram.chakrilink.app-main-27:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable_notification_icon_background.xml.flat",
+        "source": "bd.ikram.chakrilink.app-core-1.16.0-11:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
+        "source": "bd.ikram.chakrilink.app-jetified-play-services-base-18.3.0-13:/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "bd.ikram.chakrilink.app-release-34:/layout_browser_actions_context_menu_page.xml.flat",
+        "source": "bd.ikram.chakrilink.app-browser-1.8.0-5:/layout/browser_actions_context_menu_page.xml"
+    }
+]

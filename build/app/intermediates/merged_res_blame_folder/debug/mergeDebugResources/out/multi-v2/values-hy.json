@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "bd.ikram.chakrilink.app-mergeDebugResources-29:/values-hy/values-hy.xml",
+            "outputFile": "bd.ikram.chakrilink.app-mergeDebugResources-31:/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "C:\\Users\\kazii\\.gradle\\caches\\8.10.2\\transforms\\6e9b87ddca682c26951d767f3a5f05e2\\transformed\\core-1.16.0\\res\\values-hy\\values-hy.xml",
@@ -13,11 +13,11 @@
                         "endOffsets": "150,255,353,452,557,659,770,871"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,27",
+                        "startLines": "2,3,4,5,6,7,8,31",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,155,260,358,457,562,664,3090",
+                        "startOffsets": "55,155,260,358,457,562,664,3511",
                         "endColumns": "99,104,97,98,104,101,110,100",
-                        "endOffsets": "150,255,353,452,557,659,770,3186"
+                        "endOffsets": "150,255,353,452,557,659,770,3607"
                     }
                 },
                 {
@@ -52,6 +52,23 @@
                         "startOffsets": "775,881,1046,1180,1288,1442,1578,1705,1969,2136,2244,2412,2548,2710,2876,2941,3008",
                         "endColumns": "105,164,133,107,153,135,126,112,166,107,167,135,161,165,64,66,81",
                         "endOffsets": "876,1041,1175,1283,1437,1573,1700,1813,2131,2239,2407,2543,2705,2871,2936,3003,3085"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kazii\\.gradle\\caches\\8.10.2\\transforms\\308a2e77faa557d0bd706972416bde6a\\transformed\\browser-1.8.0\\res\\values-hy\\values-hy.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,159,262,373",
+                        "endColumns": "103,102,110,102",
+                        "endOffsets": "154,257,368,471"
+                    },
+                    "to": {
+                        "startLines": "27,28,29,30",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3090,3194,3297,3408",
+                        "endColumns": "103,102,110,102",
+                        "endOffsets": "3189,3292,3403,3506"
                     }
                 }
             ]

@@ -1,27 +1,41 @@
-import 'package:chakrilinkbd/view/Places_API.dart';
-import 'package:chakrilinkbd/view/custom_marker.dart';
-import 'package:chakrilinkbd/view/custom_marker_info.dart';
-import 'package:chakrilinkbd/view/custom_marker_network_image.dart';
-import 'package:chakrilinkbd/view/polygon.dart';
-import 'package:chakrilinkbd/view/polyline_two.dart';
+import 'package:InternLagbe/view/about_organization.dart';
+import 'package:InternLagbe/view/job_description.dart';
+import 'package:InternLagbe/view/listtile.dart';
+import 'package:InternLagbe/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-      ),
-      home: PolylineTwo(),
+      home: SplashScreen(),
     );
   }
 }
+
+// class HomePage extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Scaffold(
+//       body: Center(
+//         child: GestureDetector(
+//           onTap: () {
+//             //Navigator.push(context, MaterialPageRoute(builder: (_) =>JobDescription(title: "ABC COMAPANY", jobUrl: "ADKHDJDJKADSDH", lastDate: "20-20-1023", organization_name: "ABDSHDISDJKDH", latitude: 20.0001110, longitude: 30.000303)));
+//             //Navigator.push(context, MaterialPageRoute(builder: (_) => AboutOrganizationDetails(organization_name: "ABC Company", organization_desc: "lorem10",organization_url: "https://www.linkedin.com/company/mybdjobs", organization_logo: "https://media.licdn.com/dms/image/v2/D560BAQHIsBqGHskdjg/company-logo_200_200/company-logo_200_200/0/1730114573321/mybdjobs_logo?e=2147483647&v=beta&t=UJQLEl4VIJDEPSL3Iw8LV12y30EbFJrOPqmQHWpc_Zg")));
+//             Navigator.push(context, MaterialPageRoute(builder: (_) => SplashScreen()));
+
+//           },
+//           child: Container(
+//             padding: EdgeInsets.all(20),
+//             color: Colors.blue,
+//             child: Text('Go to Second Page', style: TextStyle(color: Colors.white)),
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }

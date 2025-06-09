@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:math' as math;
 
-import 'package:chakrilinkbd/view/job_view.dart';
+import 'package:InternLagbe/view/job_view.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
     super.initState();
 
     Timer(const Duration(seconds: 5),
-      () => Navigator.push(context, MaterialPageRoute(builder: (context)=>JobView()))
+      () => Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>JobView()))
     );
   }
 

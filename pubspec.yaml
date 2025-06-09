@@ -1,4 +1,4 @@
-name: chakrilinkbd
+name: InternLagbe
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -45,6 +45,9 @@ dependencies:
   uuid: ^4.5.1
   custom_info_window: ^1.0.1
   flutter_polyline_points: ^2.1.0
+  webview_flutter: ^4.12.0
+  webview_flutter_android: ^4.6.0
+  url_launcher: ^6.3.1
 
   
 
@@ -53,6 +56,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.13.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -63,6 +67,11 @@ dev_dependencies:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/InternLagbe.png"
 
 # The following section is specific to Flutter packages.
 flutter:
@@ -88,10 +97,29 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
+  fonts:
+    - family: Times new roman bold italic
+      fonts:
+        - asset: assets/fonts/times new roman bold italic.ttf
+    - family: Times new roman bold
+      fonts:
+        - asset: assets/fonts/times new roman bold.ttf
+    - family: Times new roman italic
+      fonts:
+        - asset: assets/fonts/times new roman italic.ttf
+    - family: Times new roman
+      fonts:
+        - asset: assets/fonts/times new roman.ttf
+    - family: Cabinet ExtraBold
+      fonts:
+        - asset: assets/fonts/CabinetGrotesk-Extrabold.otf
+    - family: Cabinet Medium
+      fonts:
+        - asset: assets/fonts/CabinetGrotesk-Medium.otf
+    - family: Cabinet Regular
+      fonts:
+        - asset: assets/fonts/CabinetGrotesk-Regular.otf
+    
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

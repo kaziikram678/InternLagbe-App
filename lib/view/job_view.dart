@@ -1,4 +1,5 @@
-import 'package:chakrilinkbd/services/states_services.dart';
+import 'package:InternLagbe/services/states_services.dart';
+import 'package:InternLagbe/view/job_description.dart';
 import 'package:flutter/material.dart';
 
 class JobView extends StatefulWidget {
@@ -13,28 +14,29 @@ class _JobViewState extends State<JobView> {
   StatesServices statesServices = StatesServices();
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
-        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        backgroundColor: Colors.blue,
+        title: Center(
+          child: Text(
+            "Recent Intern Jobs",
+            style: TextStyle(
+              fontSize: 25,
+              fontFamily: "Cabinet Medium",
+              fontWeight: FontWeight.bold,
+              color: Colors.white,
+            ),
+          ),
+        ),
       ),
       body: SafeArea(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.all(12.0),
-              child: TextFormField(
-                controller: searchController,
-                decoration: InputDecoration(
-                  contentPadding: const EdgeInsets.symmetric(horizontal: 20),
-                  hintText: "Search your job",
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(50.0),
-                  ),
-                ),
-              ),
-            ),
+            // Padding(
+            //   padding: const EdgeInsets.all(12.0),
+            //   child: Text("Recent Intern Jobs",style: TextStyle(fontSize: 25, fontFamily: "Cabinet Medium", fontWeight: FontWeight.bold),)
+            // ),
             Expanded(
               child: FutureBuilder(
                 future: statesServices.joblist(),
@@ -52,12 +54,78 @@ class _JobViewState extends State<JobView> {
                         return Column(
                           children: [
                             ListTile(
-                              leading: Text(snapshot.data![index]['title']),
-                              title: Text(
-                                snapshot.data![index]['organization'],
+                              leading: Container(
+                                height: 50,
+                                width: 50,
+                                child: CircleAvatar(
+                                  backgroundImage: NetworkImage(
+                                    snapshot.data![index]['organization_logo'],
+                                  ),
+                                ),
                               ),
-                              //subtitle: Text(snapshot.data![index][]),
+                              title: Text(
+                                snapshot.data![index]['title'],
+                                style: TextStyle(
+                                  fontFamily: "Cabinet ExtraBold",
+                                ),
+                              ),
+                              subtitle: Text(
+                                snapshot.data![index]['organization'],
+                                style: TextStyle(fontFamily: "Cabinet Medium"),
+                              ),
+                              trailing: Text(
+                                (snapshot.data![index]['cities_derived']
+                                        is List)
+                                    ? (snapshot.data![index]['cities_derived']
+                                            as List)
+                                        .join(', ')
+                                    : 'Unknown',
+                              ),
+                              onTap: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder:
+                                        (context) => JobDescription(
+                                          title: snapshot.data![index]['title'],
+                                          jobUrl: snapshot.data![index]['url'],
+                                          lastDate:
+                                              snapshot
+                                                  .data![index]['date_validthrough'],
+                                          organization_name:
+                                              snapshot
+                                                  .data![index]['organization'],
+                                          organization_desc:
+                                              snapshot
+                                                  .data![index]['linkedin_org_description'],
+                                          organization_url:
+                                              snapshot
+                                                  .data![index]['organization_url'],
+                                          organization_logo:
+                                              snapshot
+                                                  .data![index]['organization_logo'],
+                                          latitude:
+                                              (snapshot.data![index]['lats_derived']
+                                                          as List)
+                                                      .isNotEmpty
+                                                  ? snapshot
+                                                      .data![index]['lats_derived'][0]
+                                                  : 0.0,
+                                          longitude:
+                                              (snapshot.data![index]['lngs_derived']
+                                                          as List)
+                                                      .isNotEmpty
+                                                  ? snapshot
+                                                      .data![index]['lngs_derived'][0]
+                                                  : 0.0,
+                                        ),
+                                  ),
+                                );
+                              },
+                              minTileHeight: 80,
                             ),
+
+                            const Divider(),
                           ],
                         );
                       },

@@ -1,11 +1,13 @@
 -- Merging decision tree log ---
 application
-INJECTED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:5:5-38:19
+INJECTED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:6:5-41:19
 INJECTED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml
 MERGED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
 MERGED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\cc3336a24e8ef5d3d66fff7f5ca80854\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\cc3336a24e8ef5d3d66fff7f5ca80854\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:7:5-20
+MERGED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [androidx.window:window:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:22:5-29:19
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
@@ -35,16 +37,20 @@ MERGED from [com.google.maps.android:android-maps-utils:3.6.0] C:\Users\kazii\.g
 	android:name
 		INJECTED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml
 manifest
-ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:1:1-50:12
-MERGED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:1:1-50:12
+ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:1:1-53:12
+MERGED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:1:1-53:12
 INJECTED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+MERGED from [:webview_flutter_android] C:\Users\kazii\chakrilink\build\webview_flutter_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-15:12
 MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\cc3336a24e8ef5d3d66fff7f5ca80854\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [:google_maps_flutter_android] C:\Users\kazii\chakrilink\build\google_maps_flutter_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\kazii\chakrilink\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
 MERGED from [:geocoding_android] C:\Users\kazii\chakrilink\build\geocoding_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\308a2e77faa557d0bd706972416bde6a\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\kazii\.gradle\caches\8.10.2\transforms\3b224c4d0fbd8d5cdbd7c14809aacae1\transformed\webkit-1.12.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\c1f85211ae6978d0218d51595a7f7e62\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
@@ -97,30 +103,34 @@ uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
 ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:4:5-85
 	android:name
 		ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:4:22-82
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:5:5-66
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:5:22-64
 queries
-ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:44:5-49:15
+ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:47:5-52:15
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
 MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
 intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
-ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:45:9-48:18
+ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:48:9-51:18
 action#android.intent.action.PROCESS_TEXT
-ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:46:13-72
+ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:49:13-72
 	android:name
-		ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:46:21-70
+		ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:49:21-70
 data
-ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:47:13-50
+ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:50:13-50
 	android:mimeType
-		ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:47:19-48
-uses-permission#android.permission.INTERNET
-ADDED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml:6:5-66
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\223e4c2782dceb65140338abe6972c59\transformed\jetified-play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\kazii\chakrilink\android\app\src\main\AndroidManifest.xml:50:19-48
 uses-sdk
 INJECTED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml
 INJECTED from C:\Users\kazii\chakrilink\android\app\src\debug\AndroidManifest.xml
+MERGED from [:webview_flutter_android] C:\Users\kazii\chakrilink\build\webview_flutter_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] C:\Users\kazii\chakrilink\build\webview_flutter_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-location:21.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\cc3336a24e8ef5d3d66fff7f5ca80854\transformed\jetified-play-services-location-21.2.0\AndroidManifest.xml:5:5-44
@@ -131,6 +141,12 @@ MERGED from [:flutter_plugin_android_lifecycle] C:\Users\kazii\chakrilink\build\
 MERGED from [:flutter_plugin_android_lifecycle] C:\Users\kazii\chakrilink\build\flutter_plugin_android_lifecycle\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:geocoding_android] C:\Users\kazii\chakrilink\build\geocoding_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
 MERGED from [:geocoding_android] C:\Users\kazii\chakrilink\build\geocoding_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\308a2e77faa557d0bd706972416bde6a\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\308a2e77faa557d0bd706972416bde6a\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\kazii\.gradle\caches\8.10.2\transforms\3b224c4d0fbd8d5cdbd7c14809aacae1\transformed\webkit-1.12.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] C:\Users\kazii\.gradle\caches\8.10.2\transforms\3b224c4d0fbd8d5cdbd7c14809aacae1\transformed\webkit-1.12.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\c1f85211ae6978d0218d51595a7f7e62\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:19:5-44
@@ -209,6 +225,14 @@ ADDED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_andr
 		ADDED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:12:13-53
 	android:name
 		ADDED from [:geolocator_android] C:\Users\kazii\chakrilink\build\geolocator_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-77
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] C:\Users\kazii\chakrilink\build\url_launcher_android\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:13-74
 uses-library#androidx.window.extensions
 ADDED from [androidx.window:window:1.2.0] C:\Users\kazii\.gradle\caches\8.10.2\transforms\5093ab42d2307deb2d7ac0b7f5718c38\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
 	android:required

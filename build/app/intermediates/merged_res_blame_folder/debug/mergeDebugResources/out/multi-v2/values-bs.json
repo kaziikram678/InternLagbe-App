@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "bd.ikram.chakrilink.app-mergeDebugResources-29:/values-bs/values-bs.xml",
+            "outputFile": "bd.ikram.chakrilink.app-mergeDebugResources-31:/values-bs/values-bs.xml",
             "map": [
+                {
+                    "source": "C:\\Users\\kazii\\.gradle\\caches\\8.10.2\\transforms\\308a2e77faa557d0bd706972416bde6a\\transformed\\browser-1.8.0\\res\\values-bs\\values-bs.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,159,259,373",
+                        "endColumns": "103,99,113,99",
+                        "endOffsets": "154,254,368,468"
+                    },
+                    "to": {
+                        "startLines": "27,28,29,30",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2973,3077,3177,3291",
+                        "endColumns": "103,99,113,99",
+                        "endOffsets": "3072,3172,3286,3386"
+                    }
+                },
                 {
                     "source": "C:\\Users\\kazii\\.gradle\\caches\\8.10.2\\transforms\\6e9b87ddca682c26951d767f3a5f05e2\\transformed\\core-1.16.0\\res\\values-bs\\values-bs.xml",
                     "from": {
@@ -13,11 +30,11 @@
                         "endOffsets": "148,250,348,452,556,658,775,876"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,27",
+                        "startLines": "2,3,4,5,6,7,8,31",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,255,353,457,561,663,2973",
+                        "startOffsets": "55,153,255,353,457,561,663,3391",
                         "endColumns": "97,101,97,103,103,101,116,100",
-                        "endOffsets": "148,250,348,452,556,658,775,3069"
+                        "endOffsets": "148,250,348,452,556,658,775,3487"
                     }
                 },
                 {
