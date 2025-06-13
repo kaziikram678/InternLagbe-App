@@ -1,17 +1,22 @@
 import 'package:InternLagbe/view/about_organization.dart';
 import 'package:InternLagbe/view/job_description.dart';
+import 'package:InternLagbe/view/linkedin_page.dart';
 import 'package:InternLagbe/view/listtile.dart';
 import 'package:InternLagbe/view/splash_screen.dart';
+import 'package:InternLagbe/view/theme_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(MultiProvider(providers: [ChangeNotifierProvider(create: (context)=> ThemeProvider())],child: MyApp(),));
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      themeMode: context.watch<ThemeProvider>().getThemeValue() ? ThemeMode.dark : ThemeMode.light,
+      darkTheme: ThemeData.dark(),
       home: SplashScreen(),
     );
   }

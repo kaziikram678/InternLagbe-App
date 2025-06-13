@@ -1,6 +1,8 @@
 import 'package:InternLagbe/services/states_services.dart';
 import 'package:InternLagbe/view/job_description.dart';
+import 'package:InternLagbe/view/theme_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class JobView extends StatefulWidget {
   const JobView({super.key});
@@ -12,10 +14,22 @@ class JobView extends StatefulWidget {
 class _JobViewState extends State<JobView> {
   TextEditingController searchController = TextEditingController();
   StatesServices statesServices = StatesServices();
+
+
+   int _selectedIndex = 0;
+
+  void _onItemTapped(int index) {
+    if (index == 1) {
+      final isDark = context.read<ThemeProvider>().getThemeValue();
+      context.read<ThemeProvider>().updateTheme(value: !isDark);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        
         elevation: 0,
         backgroundColor: Colors.blue,
         title: Center(
@@ -124,7 +138,6 @@ class _JobViewState extends State<JobView> {
                               },
                               minTileHeight: 80,
                             ),
-
                             const Divider(),
                           ],
                         );
@@ -136,6 +149,30 @@ class _JobViewState extends State<JobView> {
             ),
           ],
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.blue,
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.white54,
+        currentIndex: _selectedIndex,
+        onTap: (index){
+          if(index==1){
+            final themeProvider = context.read<ThemeProvider>();
+            themeProvider.updateTheme(value: !themeProvider.getThemeValue());
+          }
+          else {
+            setState(() {
+              _selectedIndex = index;
+            });
+          }
+        },
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.dark_mode),
+            label: 'Change Mode',
+          ),
+        ],
       ),
     );
   }

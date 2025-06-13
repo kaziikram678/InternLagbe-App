@@ -49,16 +49,12 @@ class _AboutOrganizationDetailsState extends State<AboutOrganizationDetails>
     super.dispose();
   }
 
-  void _launchURL() async {
-    final Uri url = Uri.parse(widget.organization_url ?? "No Url Found");
-    if (await canLaunchUrl(url)) {
-      await launchUrl(url, mode: LaunchMode.externalApplication);
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text("Could not open the link.")),
-      );
-    }
+  Future<void> _launchUrl() async {
+  final Uri url = Uri.parse('${widget.organization_url}');
+  if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+    throw 'Could not launch $url';
   }
+}
 
   @override
   Widget build(BuildContext context) {
@@ -123,12 +119,14 @@ class _AboutOrganizationDetailsState extends State<AboutOrganizationDetails>
                         color: Colors.grey.shade200,
                       ),
                       padding: const EdgeInsets.all(10.0),
-                      child: Text(
-                        widget.organization_desc ?? "No Description Found",
-                        textAlign: TextAlign.justify,
-                        style: const TextStyle(
-                          fontFamily: "Cabinet Medium",
-                          fontSize: 18,
+                      child: SingleChildScrollView(
+                        child: Text(
+                          widget.organization_desc ?? "No Description Found",
+                          textAlign: TextAlign.justify,
+                          style: const TextStyle(
+                            fontFamily: "Cabinet Medium",
+                            fontSize: 18,
+                          ),
                         ),
                       ),
                     ),
@@ -142,7 +140,7 @@ class _AboutOrganizationDetailsState extends State<AboutOrganizationDetails>
                           borderRadius: BorderRadius.zero,
                         ),
                       ),
-                      onPressed: _launchURL,
+                      onPressed: _launchUrl,
                       child: const Text(
                         "More Details",
                         style: TextStyle(

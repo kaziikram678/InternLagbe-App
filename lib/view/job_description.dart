@@ -47,6 +47,13 @@ class _JobDescriptionState extends State<JobDescription> {
 
   StatesServices statesServices = StatesServices();
 
+  Future<void> _launchUrl() async {
+    final Uri url = Uri.parse('${widget.jobUrl}');
+    if (!await launchUrl(url, mode: LaunchMode.externalApplication)) {
+      throw 'Could not launch $url';
+    }
+  }
+
   @override
   void initState() {
     super.initState();
@@ -79,7 +86,10 @@ class _JobDescriptionState extends State<JobDescription> {
   }
 
   void _getDirectionsAndNavigate() async {
-    final routeData = await statesServices.fetchRoute(widget.latitude, widget.longitude);
+    final routeData = await statesServices.fetchRoute(
+      widget.latitude,
+      widget.longitude,
+    );
     if (routeData.isEmpty) return;
 
     final routes = routeData[0]['routes'] as List;
@@ -148,12 +158,32 @@ class _JobDescriptionState extends State<JobDescription> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
-                        CircleAvatar(
-                          radius: 50,
-                          backgroundImage: NetworkImage(
-                            widget.organization_logo!,
+                        InkWell(
+                          child: CircleAvatar(
+                            radius: 50,
+                            backgroundImage: NetworkImage(
+                              widget.organization_logo!,
+                            ),
+                            backgroundColor: Colors.grey,
                           ),
-                          backgroundColor: Colors.grey,
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder:
+                                    (context) => AboutOrganizationDetails(
+                                      organization_logo:
+                                          widget.organization_logo!,
+                                      organization_name:
+                                          widget.organization_name!,
+                                      organization_desc:
+                                          widget.organization_desc!,
+                                      organization_url:
+                                          widget.organization_url!,
+                                    ),
+                              ),
+                            );
+                          },
                         ),
 
                         Center(
@@ -170,24 +200,6 @@ class _JobDescriptionState extends State<JobDescription> {
                                     fontFamily: 'Cabinet ExtraBold',
                                   ),
                                 ),
-                                onTap: () {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder:
-                                          (context) => AboutOrganizationDetails(
-                                            organization_logo:
-                                                widget.organization_logo!,
-                                            organization_name:
-                                                widget.organization_name!,
-                                            organization_desc:
-                                                widget.organization_desc!,
-                                            organization_url:
-                                                widget.organization_url!,
-                                          ),
-                                    ),
-                                  );
-                                },
                               ),
                             ],
                           ),
@@ -265,19 +277,7 @@ class _JobDescriptionState extends State<JobDescription> {
                             textStyle: TextStyle(color: Colors.black),
                           ),
                           onPressed: () async {
-                            final Uri url = Uri.parse(widget.jobUrl!);
-                            if (await canLaunchUrl(url)) {
-                              await launchUrl(
-                                url,
-                                mode: LaunchMode.externalApplication,
-                              );
-                            } else {
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(
-                                  content: Text("Could not open the link."),
-                                ),
-                              );
-                            }
+                            _launchUrl();
                           },
                           child: Text(
                             "Apply Now",
