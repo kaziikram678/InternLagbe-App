@@ -6,9 +6,12 @@
 
 InternLagbe is a mobile app built with Flutter using Dart language that helps Bangladeshi students and fresh graduates find top internship opportunities listed on LinkedIn. The app integrates Google Maps to show job locations and provides a clear direction path from the user's current location to the job site using polylines.
 
-![Cream Modern Corporate Download Our App Minimal Instagram Story (2)](https://github.com/user-attachments/assets/d87265ec-b523-4fb6-a505-cf0a9d886b91)
+![App_1](https://github.com/user-attachments/assets/1c926815-e28b-43d7-b1d0-439877a35647)
+![App_@](https://github.com/user-attachments/assets/d995f6a1-1ac8-4cfe-9e61-c7b8fa73215d)
+
 
  🔍 Features
+
 - Lists recent internship jobs in Bangladesh from LinkedIn (via RapidAPI).
 - Interactive Google Map with job location pins.
 - “Direction” button showing polyline route from user's location to job.
