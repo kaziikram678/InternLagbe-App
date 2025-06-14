@@ -126,6 +126,7 @@ class _AboutOrganizationDetailsState extends State<AboutOrganizationDetails>
                           style: const TextStyle(
                             fontFamily: "Cabinet Medium",
                             fontSize: 18,
+                            color: Colors.black
                           ),
                         ),
                       ),

@@ -1,7 +1,5 @@
 import 'package:InternLagbe/view/about_organization.dart';
 import 'package:InternLagbe/view/job_description.dart';
-import 'package:InternLagbe/view/linkedin_page.dart';
-import 'package:InternLagbe/view/listtile.dart';
 import 'package:InternLagbe/view/splash_screen.dart';
 import 'package:InternLagbe/view/theme_provider.dart';
 import 'package:flutter/material.dart';

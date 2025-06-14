@@ -96,6 +96,7 @@ class _JobDescriptionState extends State<JobDescription> {
     if (routes.isEmpty) return;
 
     final firstRoute = routes[0];
+    final distance = firstRoute['distanceMeters']/100 ?? "No Distance Found";
     final polylineMap = firstRoute['polyline'] as Map<String, dynamic>;
     final encodedPolyline = polylineMap['encodedPolyline'] ?? '';
 
@@ -104,7 +105,7 @@ class _JobDescriptionState extends State<JobDescription> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => PolylineScreen(decodedPolyline: decodedPoints),
+        builder: (context) => PolylineScreen(decodedPolyline: decodedPoints, Distance: distance),
       ),
     );
   }
@@ -140,7 +141,7 @@ class _JobDescriptionState extends State<JobDescription> {
             Expanded(
               child: Container(
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20.0),
+                  //borderRadius: BorderRadius.circular(20.0),
                   gradient: const LinearGradient(
                     colors: [
                       Color.fromARGB(255, 137, 198, 255),

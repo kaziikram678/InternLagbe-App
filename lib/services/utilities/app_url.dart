@@ -9,7 +9,7 @@ class AppUrl {
   //"https://active-jb-7d?location_filter=Bangladesh";
 
   static const Map<String, String> headers = {
-    "x-rapidapi-key": "06828cbf3fmshf50b179995da151p1b7fa6jsn725dc2e99597",
+    "x-rapidapi-key": "40e78a12c5msh3556d27d92e7431p15d89ejsnf911a4ff8bf7",
     "x-rapidapi-host": "internships-api.p.rapidapi.com",
   };
 }
